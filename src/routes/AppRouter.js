@@ -30,7 +30,7 @@ export const AppRouter = () => {
     const dispatch = useDispatch();
     
     
-    const {checking} = useSelector(state => state.authReducer)
+    //const {checking} = useSelector(state => state.authReducer)
 
     useEffect(() => {
         dispatch (startChecking ())

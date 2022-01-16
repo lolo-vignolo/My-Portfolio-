@@ -25,7 +25,7 @@ export const RegisterScreen = () => {
     const handleRegister = (e)=> {
         e.preventDefault();
         console.log({password, confirm});
-        var regularExpression  = /^[a-zA-Z0-9!@#$%^&*]{6,16}$/
+        //var regularExpression  = /^[a-zA-Z0-9!@#$%^&*]{6,16}$/
         if(password !== confirm){
             return Swal.fire("Error", "Your Passwords must be the same.", "error")}
         // }else if (password.trim().length < 8) {

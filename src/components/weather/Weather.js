@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react';
+import React, {useState} from 'react';
 import "../weather/weather.css"
 
 
@@ -32,7 +32,7 @@ export const Weather = () => {
 
 
     const click = () => {
-      {
+      
         fetch(`${api.base}weather?q=${query}&units=metric&APPID=${api.key}`)
           .then(res => res.json())
           .then(result => {
@@ -40,7 +40,7 @@ export const Weather = () => {
             setQuery('');
             console.log(result);
           });
-      }
+      
     }
 
     

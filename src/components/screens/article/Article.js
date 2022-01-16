@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Navigate, useNavigate, useParams } from 'react-router-dom';
+import { useNavigate, useParams } from 'react-router-dom';
 
 import { Formularies } from '../../comments/Formularies';
 import { NewEntry } from '../../comments/NewEntry';
@@ -97,7 +97,7 @@ export const Article = () => {
     const mybyline = noticiaByTitle.byline;
     const myabtract = noticiaByTitle.abstract;
     const mysection = noticiaByTitle.section;
-    const mydate = noticiaByTitle.published_date;
+    
     const mymultimedia = noticiaByTitle.multimedia;
     const myurl = noticiaByTitle.url;
 

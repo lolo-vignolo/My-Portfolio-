@@ -70,7 +70,7 @@ useEffect (() => {
   
 
    const newIndex =() =>{
-    const index = Math. random(1, 20500)
+     Math.random(1, 20500)
 
    }
 

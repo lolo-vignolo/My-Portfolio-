@@ -24,7 +24,7 @@ export const HandleNote = ( {handleWindow}) => {
         note : "",
     })
 
-    const {file, note} = formValues;
+    const {note} = formValues;
 
 
  
@@ -166,24 +166,4 @@ export const HandleNote = ( {handleWindow}) => {
 
 
 
-   {/* <button
-                    className="btn ml-4 mr-3 btn-note"
-                    onClick={handlePictureClick}
-                    >
-                    <i className="far fa-image i-note" style={{fontSize: "0.8rem" }}> Piture</i> 
-                    </button> */}
-
-                    {/* actualiza el comentario  */}
-                    
-
- {/* <div className='col-0.5'>
-                            <input 
-                                id= "filseSelector"
-                                type= "file"
-                                style={{ display: "none"}}
-                                name= "file"
-                                value = {file}
-                                onChange={handleFileChange}
-                            />
-
-                    </div> */}
+ 
