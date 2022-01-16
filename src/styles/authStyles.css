@@ -178,6 +178,8 @@
         box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.25);
     
         transition: box-shadow .3s ease;}
+
+    
     
     .google-icon-wrapper {
         display: flex;
@@ -207,6 +209,19 @@
       
         margin-left: 6rem; 
     }
+
+    .btn-text:hover {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        color: #fff;
+        font-size: 40%;
+        letter-spacing: 0.7px;
+      
+        margin-left: 6rem; 
+    }  
+
+    
     .logout-row{
         margin-left: 2rem;
         margin-right: 2rem;

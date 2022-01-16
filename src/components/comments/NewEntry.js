@@ -2,6 +2,7 @@
 import React, { useState } from 'react'
 import "../comments/newEntry.css"
 import { HandleNote } from './HandleNote'
+import "../comments/handleNote.css";
 
 import Modal from 'react-modal';
 

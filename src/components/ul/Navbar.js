@@ -30,7 +30,9 @@ const handleLogout = () => {
    
       <nav className="navbar fixed-top navbar-expand-sm navbar-dark bg-dark small">
 
-      <div className="navbar-collapse collapse w-100 order-3 logoutName">
+    
+        
+      <div className="navbar-collapse collapse w-50 order-3 logoutName">
               <ul className="navbar-nav logout-row">
 
                 <span
@@ -45,17 +47,22 @@ const handleLogout = () => {
                       Logout
                   </button>
               </ul>
-
-              
-              
+  
         </div>
-          
-          <Link 
+
+        <Link 
               className="navbar-brand" 
               to="/"
           >
               My Portafolio
           </Link>
+
+          
+        
+          
+         
+
+        
 
           
           
