@@ -1,0 +1,342 @@
+.row-entry{
+   width: 85vw;
+   flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.plus-circle{
+    cursor: pointer;
+    color: #97ec36; 
+}
+
+.plus-circle:hover{
+    color: #32FF6A;
+    transition: .3s;
+}
+.comment-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.opinion-col{
+    margin-left: -6rem;;
+ }
+
+ .b-column{
+     margin-left: -4rem;
+
+ }
+
+.button-plus{
+    outline: none;
+    border:none;
+    background: none;
+
+}
+h4{
+    color: white;
+}
+/* Modal */
+.ReactModalPortal > div{
+    opacity: 0;
+}
+
+.ReactModalPortal .ReactModal__Overlay {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    transition: opacity .2s ease-in-out;
+    z-index: 999;
+}
+
+.modal-fondo {
+    background-color: rgba(0, 0, 0, 0.3);
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    position: fixed;
+}
+
+.ReactModalPortal .ReactModal__Overlay--after-open {
+    opacity: 1;
+}
+
+.ReactModalPortal .ReactModal__Overlay--before-close {
+    opacity: 0;
+}
+
+.modal {
+   
+    background: #C9CCD5;
+    opacity: 95%;
+    border-radius: 5px;
+    color: rgb(51, 51, 51);
+    display: inline;
+    outline: none;
+    padding: 10px;
+    width:67%;
+}
+
+.pictures{
+    display: flex;
+    height: 5.5rem;
+    width: 5.5rem;
+}
+
+.comment-row{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content:flex-start;
+    width: 85vw;
+
+}
+
+.text-input{
+    display: flex;
+    height: 5.5rem;
+    width: 50%;
+    background-color: #f8f2f2;
+    border: 0.1px solid #92967D;
+    border-radius: 5px;
+    padding-left: 5px;
+
+}
+
+
+@media screen and (min-width: 880px){
+
+    .row-entry{
+        width: 81vw;
+        flex-direction: row;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         
+     }
+
+     .opinion-col{
+        margin-left: -30rem;;
+     }
+
+     .b-column{
+         margin-left: -24rem;
+
+     }
+     
+     .plus-circle{
+         cursor: pointer;
+         color: #97ec36; 
+     }
+     
+     .plus-circle:hover{
+         color: #32FF6A;
+         transition: .3s;
+     }
+
+     
+     .comment-row{
+         display: flex;
+         flex-direction: row;
+     }
+     
+     .button-plus{
+         outline: none;
+         border:none;
+         background: none;
+     
+     }
+     
+     /* Modal */
+     .ReactModalPortal > div{
+         opacity: 0;
+     }
+     
+     .ReactModalPortal .ReactModal__Overlay {
+         align-items: center;
+         display: flex;
+         justify-content: center;
+         transition: opacity .2s ease-in-out;
+         z-index: 999;
+     }
+     
+     .modal-fondo {
+         background-color: rgba(0, 0, 0, 0.3);
+         bottom: 0;
+         left: 0;
+         right: 0;
+         top: 0;
+         position: fixed;
+     }
+     
+     .ReactModalPortal .ReactModal__Overlay--after-open {
+         opacity: 1;
+     }
+     
+     .ReactModalPortal .ReactModal__Overlay--before-close {
+         opacity: 0;
+     }
+     
+     .modal {
+        
+         background: #C9CCD5;
+         opacity: 95%;
+         border-radius: 5px;
+         color: rgb(51, 51, 51);
+         display: inline;
+         outline: none;
+         padding: 10px;
+         width:67%;
+         margin-left: -5rem;
+     }
+     
+     .pictures{
+         display: flex;
+         height: 5.5rem;
+         width: 5.5rem;
+     }
+     
+     .comment-row{
+         display: flex;
+         flex-direction: row;
+         align-items: flex-start;
+         justify-content:flex-start;
+         width: 150rem;
+      
+     
+     }
+     
+     .text-input{
+         display: flex;
+         height: 5.5rem;
+         width: 100%;
+         background-color: #f8f2f2;
+         border: 0.1px solid #92967D;
+         border-radius: 5px;
+         padding-left: 5px;
+     
+     }
+
+}
+
+
+@media screen and (min-width: 1025px){
+
+    .row-entry{
+        width: 81vw;
+        flex-direction: row;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         
+     }
+
+     .opinion-col{
+        margin-left: -40rem;;
+     }
+
+     .b-column{
+         margin-left: -50rem;
+
+     }
+     
+     .plus-circle{
+         cursor: pointer;
+         color: #97ec36; 
+     }
+     
+     .plus-circle:hover{
+         color: #32FF6A;
+         transition: .3s;
+     }
+
+     
+     .comment-row{
+         display: flex;
+         flex-direction: row;
+     }
+     
+     .button-plus{
+         outline: none;
+         border:none;
+         background: none;
+     
+     }
+     
+     /* Modal */
+     .ReactModalPortal > div{
+         opacity: 0;
+     }
+     
+     .ReactModalPortal .ReactModal__Overlay {
+         align-items: center;
+         display: flex;
+         justify-content: center;
+         transition: opacity .2s ease-in-out;
+         z-index: 999;
+     }
+     
+     .modal-fondo {
+         background-color: rgba(0, 0, 0, 0.3);
+         bottom: 0;
+         left: 0;
+         right: 0;
+         top: 0;
+         position: fixed;
+     }
+     
+     .ReactModalPortal .ReactModal__Overlay--after-open {
+         opacity: 1;
+     }
+     
+     .ReactModalPortal .ReactModal__Overlay--before-close {
+         opacity: 0;
+     }
+     
+     .modal {
+        
+         background: #C9CCD5;
+         opacity: 95%;
+         border-radius: 5px;
+         color: rgb(51, 51, 51);
+         display: inline;
+         outline: none;
+         padding: 10px;
+         width:50%;
+         margin-left: -5rem;
+         height: 20rem;
+     }
+     
+     .pictures{
+         display: flex;
+         height: 5.5rem;
+         width: 5.5rem;
+        
+     }
+     
+     .comment-row{
+         display: flex;
+         flex-direction: row;
+         align-items: flex-start;
+         justify-content:flex-start;
+         width: 100rem;
+      
+     
+     }
+     
+     .text-input{
+         display: flex;
+         height: 4rem;
+         width: 100%;
+         background-color: #f8f2f2;
+         border: 0.1px solid #92967D;
+         border-radius: 5px;
+         padding-left: 5px;
+     
+     }
+
+}

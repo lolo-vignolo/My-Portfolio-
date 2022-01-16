@@ -1,0 +1,850 @@
+
+
+.article-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-top: 5.4rem;
+
+}
+
+.row-one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 106vw;
+}
+
+.carousel-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -0.2rem;
+}
+
+.row-title{
+    display: flex;
+    align-items: center;
+    height: 14vh;
+    width: 100%;
+    background-color: #171717;
+
+    
+}
+
+.col-title{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh; 
+   
+    
+}
+
+.title-art{
+    display: flex;
+    justify-content: center;
+    font-size: 2.5rem;
+    color:#EDEDED;
+    text-shadow: #DA0037 1.5px 1px;
+   
+    
+}
+
+
+
+.row-content{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #EDEDED;
+
+}
+
+.col-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10rem;
+    margin-bottom: 3rem;
+   
+}
+
+.img-article{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px 15px;
+    border-color: brown;
+
+}
+
+
+.col-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 3rem;
+
+}
+
+.paragraph-letter{
+    margin-top: 3rem;
+    line-height:40px
+}
+
+.letter-space{
+    font-size: 1.6rem;
+    font-family:"MajritTx,serif";
+    font-weight: 600;
+    
+}
+
+
+
+.link-style{
+    font-size: 1.2rem;
+    text-decoration: none;
+    outline: none;
+    color: #5C4D4D;
+    margin-bottom: 3px;
+}
+
+.button-row{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    background-color: #171717;
+}
+
+.return-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1.5rem;
+    color: #DA0037 ;
+    height: 2.3rem;
+    width: 7rem;
+    margin-top: 2rem;
+}
+
+.add-coment{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+
+.col-formulary{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 1rem;
+
+}
+
+.sectionclass{
+    color:#950101;
+    font-family:"MajritTx,serif"
+}
+
+
+.footer-article{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    margin-left: 5rem;
+}
+
+
+@media screen and (min-width: 880px){
+
+ 
+    
+    .row-one{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 102vw;
+    }
+    
+    .carousel-row{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 35rem;
+        margin-top: -14.3rem;
+        margin-bottom: -3rem;
+    }
+    
+    .row-title{
+        display: flex;
+        align-items: center;
+        height: 14vh;
+        width: 100%;
+        background-color: #171717;
+        
+    
+        
+    }
+    
+    .col-title{
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 10vh; 
+       
+        
+    }
+    
+    .title-art{
+        display: flex;
+        justify-content: center;
+        font-size: 2.5rem;
+        text-shadow: brown 2px 2px;
+       
+        
+    }
+    
+    
+    
+    .row-content{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        background-color: #EDEDED;
+        
+    
+    }
+    
+    .col-image{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 10rem;
+        margin-bottom: 3rem;
+        margin-left: 0.5rem;
+       
+    }
+    
+    .img-article{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 15px 15px;
+        border-color: brown;
+    
+    }
+    
+    
+    .col-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        margin-bottom: 3rem;
+        margin-left:1.5rem ;
+       
+    
+    }
+    
+    .paragraph-letter{
+       
+        margin-top: 3rem;
+        line-height:40px
+    }
+    
+    .letter-space{
+        font-size: 1.6rem;
+        font-family:"MajritTx,serif";
+        font-weight: 500;
+        
+    }
+    
+    
+    
+    .link-style{
+        font-size: 1.2rem;
+        text-decoration: none;
+        outline: none;
+        color: #5C4D4D;
+        margin-bottom: 3px;
+    }
+    
+    .button-row{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        background-color: #171717;
+    }
+
+    .return-button{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin-left: 3.3rem;
+        height: 2.7rem;
+    }
+    
+    
+    .add-coment{
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+    
+    }
+    
+    
+    .col-formulary{
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        margin-left: 1rem;
+    
+    }
+
+
+    .footer-article{
+        display: flex;
+        align-items: center;
+        justify-self: center;
+        margin-left: 22rem;
+        size: 1rem;
+    }
+    
+
+ 
+}
+
+
+
+
+
+
+@media screen and (min-width: 1025px){
+    
+    
+    .row-one{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100VW;
+    }
+    
+    .carousel-row{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 38.8rem;
+        width: 105VW;
+        margin-top: -1.3rem;
+        
+       
+    }
+    /**/
+    .row-title{
+        display: flex;
+        align-items: center;
+        height: 22vh;
+        width: 100%;
+        background-color: #171717;
+        
+    
+        
+    }
+    
+    .col-title{
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 18vh; 
+       
+        
+    }
+    
+    .title-art{
+        display: flex;
+        justify-content: center;
+        font-size: 4rem;
+        text-shadow: brown 2px 2px;
+       
+        
+    }
+
+    /**/
+    
+    
+    
+    .row-content{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        background-color: #EDEDED;
+        
+    
+    }
+    
+    .col-image{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 10rem;
+        margin-bottom: 3rem;
+        margin-left: 0.5rem;
+       
+    }
+    
+    .img-article{
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50rem;
+        width: auto;
+        border-radius: 15px 15px;
+        border-color: brown;
+        margin-bottom: 3rem;
+    
+    }
+    
+    
+    .col-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        margin-bottom: 3rem;
+        width: 73vw;
+       
+    
+    }
+    
+    .paragraph-letter{
+       
+        margin-top: 3rem;
+        line-height:40px
+    }
+    
+    .letter-space{
+        font-size: 1.6rem;
+        font-family:"MajritTx,serif";
+        font-weight: 500;
+        
+    }
+    
+    
+    
+    .link-style{
+        font-size: 1.2rem;
+        text-decoration: none;
+        outline: none;
+        color: #5C4D4D;
+        margin-bottom: 3px;
+    }
+    
+    .link-style:hover{
+        text-decoration: none;
+        color: brown;
+    }
+
+    .button-row{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        background-color: #171717;
+    }
+
+    .return-button{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin-left: 15.5rem;
+        margin-top: 1rem;
+    }
+
+   .return-button:hover{
+       color: white;
+       background-color: rgb(255, 73, 73);
+   }
+    
+    
+    .add-coment{
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+    
+    }
+    
+    
+    .col-formulary{
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        margin-left: 1rem;
+    
+    }
+
+    .footer-article{
+        display: flex;
+        align-items: center;
+        justify-self: center;
+        margin-left: 45rem;
+    }
+
+
+
+
+}
+   
+
+
+/* 
+
+
+
+
+
+ 
+    .title-art{
+        display: flex;
+        justify-content: center;
+        font-family:"MajritTx,serif";
+        width: 80%;
+         font-size: 3.5rem;
+         margin-left: 1.7rem;
+         text-shadow: 2px 2px gray ;
+         font-weight: bold;
+     }
+
+
+
+
+
+
+
+    .col-title{
+       display: flex;
+       align-content: flex-start;
+       padding-top: 5rem;
+      
+ 
+    }
+
+
+
+
+    .advertising{
+       display: flex;
+       align-items: center;
+       padding-top: 20rem;
+       
+
+    }
+
+
+
+
+    .carusel-picture{
+        display: flex;
+        height: 5rem;
+        width: 20rem;
+        position: relative;
+    }
+
+    .paragraph-letter{
+        font-size: 1px;
+    }
+
+  
+
+
+
+
+    .first-item{
+       display: flex;
+      width: 200px;
+      height: auto;
+       
+    }
+
+
+
+
+
+    .first-row{
+       display: flex;
+       flex-direction: column-reverse;
+       margin-top: 25rem;
+       margin-left: -2rem;
+       
+       
+    }
+
+
+
+
+    
+    .paragraph-letter{
+        display: flex;
+        flex-direction: column-reverse;
+        width: 22rem;
+        padding-left: 1px;
+        padding-right: 3px;
+        margin-right: 3rem;
+        margin-left: -1rem;
+      
+     }
+
+     .first-item{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 350px;
+        height: 300px;
+        margin-bottom: 4rem;
+       
+     }
+
+     .row-title{
+         height: 20rem;
+         margin-bottom: -2rem;
+     }
+ 
+    
+
+
+
+
+
+
+
+
+
+    .col-image{
+       display: flex;
+       width: 150px;
+       margin-top: -25rem;
+
+    }
+
+
+
+/*animation*/
+
+/* 
+
+@media screen and (min-width: 880px){
+
+}
+
+@media screen and (min-width: 1025px){
+    .img-article {
+        display: flex;
+        width: 30rem;
+        
+    }
+
+
+    .advertising{
+    
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100rem;
+        margin-top: 16rem;
+        margin-bottom: 50rem;
+        background-color: black;
+        height: 15rem;
+        
+      
+        
+    }
+    .card-body{
+        
+        background-color: #F1F1F1;
+    }
+    
+    
+    .col-title{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 0rem;
+        
+     }
+    
+     .title-art{
+        font-family:"MajritTx,serif";
+         font-size: 4.5rem;
+         text-shadow: 2px 2px gray ;
+         font-weight: bold;
+     }
+    
+
+    .article-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 95vw;
+        margin-left: 2.8rem;
+    }
+
+    
+.first-col{
+    display: flex;
+    flex-direction: column;
+    background-color:white;
+    align-items: center;
+    justify-content: center; 
+
+}
+
+.li-class{
+    display: flex;
+   
+    justify-content: flex-end;
+    align-items: center;
+    align-content: center;
+ 
+}
+
+.link-style{
+   
+    font-size: 1.4rem;
+    text-decoration: none;
+    outline: none;
+    color: #5C4D4D;
+    margin-bottom: 3px;
+}
+
+  .link-style:hover {
+    text-decoration: none;
+    color: #8F1D14;
+    transition: .3s;
+  }
+  .link-style:active {
+    background: #5C4D4D;
+    color: #8F1D14;
+  }
+
+.icon-link{
+    display: flex;
+    align-self: center;
+}
+
+.button-row{
+    width: 93vw;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+}
+
+.bg-btn{
+    color: #5C4D4D;
+    border-style: solid;
+    border-color: #92967D;
+  
+}
+
+.bg-btn:hover{
+    
+    color: brown;
+    background:#d4d3d3;
+    transition: .3s;
+    border-style: solid;
+    border-color: brown;
+}
+
+
+.carusel-picture{
+    display: flex;
+    height: 10rem;
+    width: 23rem;
+    position: relative;
+}
+
+.col-carrusel{
+
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0px;
+    background-color: #F05454;
+    height: 44rem;
+    width: 100vw;
+}
+
+.col-adv{
+    height: 12rem;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+
+
+.first-row{
+
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    height: auto;
+     margin-left: 1.5rem;
+   
+}
+
+.first-item{
+    display: flex;
+}
+
+
+.card-body{
+    width: 100%;
+}
+
+.col-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+.letter-space {
+    letter-spacing: 0.5px;
+    font-size: 2rem;
+    font-family:"MajritTxRoman,serif";
+    
+}
+
+.col-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    
+}
+}  */

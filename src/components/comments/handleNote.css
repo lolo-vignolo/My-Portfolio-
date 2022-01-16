@@ -1,0 +1,301 @@
+
+.note-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 20rem;
+    width: 15rem;
+    
+}
+
+
+.comment-row{
+    display: flex;;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    width: 17rem;
+}
+
+.col-input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    
+}
+
+
+.text-input{
+    display: flex;
+    height: 14rem;
+    width: 17rem;
+    margin-bottom: 2rem;
+    display: inline-block;
+    
+    
+    
+}
+
+
+.buttons-comment{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: -1.3rem;
+    align-items:center;
+}
+
+.btn-complete{
+    background-color: #EEEEEE;
+    border-style: solid;
+    border-color: #08da40;
+    color: #08da40;
+
+}
+
+.btn-close{
+    background-color: #EEEEEE;
+    border-style: solid;
+    border-color: #CF0000;
+    color: #CF0000;
+}
+
+
+@media screen and (min-width: 880px){
+
+    
+.note-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 20rem;
+    width: 40rem;
+    
+}
+
+
+.comment-row{
+    display: flex;;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    width: 30rem;
+}
+
+.col-input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    
+}
+
+
+.text-input{
+    display: flex;
+    height: 14rem;
+    width: 50rem;
+    margin-bottom: 2rem;
+    display: inline-block;
+    
+    
+    
+}
+
+
+.buttons-comment{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: -1.3rem;
+    align-items:center;
+}
+
+.btn-complete{
+    background-color: #EEEEEE;
+    border-style: solid;
+    border-color: #08da40;
+    color: #08da40;
+    margin-left: -12rem;
+
+}
+
+.btn-close{
+    background-color: #EEEEEE;
+    border-style: solid;
+    border-color: #CF0000;
+    color: #CF0000;
+    margin-left: -5rem;
+
+}
+
+
+}
+
+@media screen and (min-width: 1025px){
+
+    .note-container{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        height: 20rem;
+        width: 50rem;
+        
+    }
+    
+    
+    .comment-row{
+        display: flex;;
+        align-items: center;
+        justify-content: center;
+        margin-top: 2rem;
+        width: 50rem;
+    }
+    
+    .col-input{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width:100%;
+        
+    }
+    
+    
+    .text-input{
+        display: flex;
+        height: 11rem;
+        width: 50rem;
+        margin-bottom: 2rem;
+        display: inline-block;
+        
+        
+        
+    }
+    
+    
+    .buttons-comment{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        margin-top: -1.3rem;
+        align-items:center;
+    }
+    
+    .btn-complete{
+        background-color: #EEEEEE;
+        border-style: solid;
+        border-color: #08da40;
+        color: #08da40;
+        margin-left: -22rem;
+    
+    }
+    
+    .btn-close{
+        background-color: #EEEEEE;
+        border-style: solid;
+        border-color: #CF0000;
+        color: #CF0000;
+        margin-left: -16rem;
+    
+    }
+    
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+
+
+.btn-note{
+    background-color: #EEEEEE;
+    border-style: solid;
+    border-color: #92967D;
+}
+
+
+
+
+.buttons-comment{
+    margin-top: 1rem;
+    height: 3rem;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1rem;
+
+}
+
+.i-note{
+   
+    justify-content: space-around;
+    color: #146356; 
+}
+
+.i-note:hover{
+    color: #152D35;
+    transition: .3s;
+}
+
+.pictures{
+    display: flex;
+    height: 5.5rem;
+    width: 5.5rem;
+}
+
+
+
+@media(max-width:1005px){
+    .text-location{
+        display: flex;
+        justify-content: flex-start;
+        margin-left: -2rem;
+}}  
+
+
+
+
+
+.text-input{
+    display: flex;
+    height: 5.5rem;
+    width: 65rem;
+    background-color: #f8f2f2;
+    border: 0.1px solid #92967D;
+    border-radius: 5px;
+    padding-left: 5px;
+
+}
+
+@media(max-width:1005px){
+    .text-input{
+        width: 22rem;
+        margin-left: -1rem;
+}}
+@media(max-width:700px){
+    .text-input{
+        width: 17rem;
+        margin-left: -1rem;
+}} */

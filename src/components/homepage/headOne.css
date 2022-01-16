@@ -1,0 +1,22 @@
+.colors{
+    margin-top: 10%;
+    color: white;
+   width: 25rem;
+}
+
+@media(max-width:1005px){
+    h1{
+        font-size: 1.7rem;
+    }
+    h2 {
+        
+        font-size: 1.5rem; 
+    }
+    h3{
+        font-size: 1.4rem;
+    }
+
+    span{
+        font-size: 1.7rem;
+    }
+}

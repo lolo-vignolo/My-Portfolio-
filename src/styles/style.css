@@ -1,0 +1,529 @@
+*{
+    font-family:'Francois One', "sans-serif", "cursive";
+    font-size:xx-large;
+   
+}
+
+
+.header .navbar {
+    background-color: transparent !important;
+   
+  }
+
+.small{
+display: block;
+align-items: flex-start;
+}  
+
+
+.logoutName{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    margin-left: -1.5rem;
+    position: absolute;
+}
+
+
+
+.logout-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:flex-end;
+    margin-left: 20rem;
+    margin-top: 0.2rem;
+}
+
+.nameBar{
+    display: flex;
+    align-items: center;
+    width: 3.5rem;
+   
+}
+.logout-button{
+    display: flex;
+    align-items: center;
+    margin-left: 1.5rem;
+}
+
+
+
+.navbar-brand {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 1.9rem;
+    font-weight: bold;
+    line-height: 1;
+}
+
+ 
+.nav-item {
+    padding-left: 18px;
+    padding-right: 18px;
+   
+}
+
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat-light", sans-serif;
+    
+}
+
+
+
+@media screen and (min-width: 880px){
+
+
+
+.header .navbar {
+    background-color: transparent !important;
+   
+  }
+
+.small{
+    display: flex;
+
+   
+}  
+
+
+.logoutName{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 11rem;
+    position: absolute;
+}
+
+
+
+.logout-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:flex-end;
+    margin-left: 20rem;
+    margin-top: 0.2rem;
+}
+
+.nameBar{
+    display: flex;
+    align-items: center;
+    width: 3.5rem;
+    margin-right: 1rem;
+   
+}
+.logout-button{
+    display: flex;
+    align-items: center;
+    margin-left: 1.5rem;
+}
+
+
+
+.navbar-brand {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 1.9rem;
+    font-weight: bold;
+    line-height: 1;
+}
+
+ 
+.nav-item {
+    padding-left: 18px;
+    padding-right: 18px;
+   
+}
+
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat-light", sans-serif;
+    
+}
+
+ 
+}
+
+@media screen and (min-width: 1025px){
+  
+    .header .navbar {
+        background-color: transparent !important;
+       
+      }
+    
+    .small{
+        display: flex;
+        flex-direction: row;
+        width: 100vw;
+        align-items: center;
+       
+    }  
+    
+    
+    .logoutName{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        align-items: center;
+        margin-left: 38rem;
+        position: absolute;
+    }
+    
+    
+    
+    .logout-row{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content:flex-end;
+        margin-left: 15.3rem;
+        margin-top: 0.2rem;
+    }
+    
+    .nameBar{
+        display: flex;
+        align-items: center;
+        width: 3.5rem;
+        margin-right: 1rem;
+       
+    }
+    .logout-button{
+        display: flex;
+        align-items: center;
+        margin-left: 1.5rem;
+    }
+    
+    
+    
+    .navbar-brand {
+        font-family: 'Ubuntu Condensed', sans-serif;
+        font-size: 3rem;
+        font-weight: bold;
+        line-height: 1;
+    }
+
+    .selectio-screen{
+        display: flex;
+        align-items: center;
+        width: 50vw;
+    }
+    
+     
+    .nav-item {
+        padding-left: 18px;
+        padding-right: 18px;
+       
+    }
+    
+    
+    .nav-link {
+        font-size: 1.2rem;
+        font-family: "Montserrat-light", sans-serif;
+        
+    }
+    
+}
+
+
+
+
+/* 
+@media(max-width:1005px){
+    .logoutName{
+        display: flex;
+        margin-left: -2rem;
+        flex-direction: row;
+        width: 2rem;
+        position: absolute;
+        justify-content: space-around;
+        
+    }
+} */
+
+/* @media(max-width:1005px){
+    .logout-row{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    
+        
+    }
+} */
+
+
+/* @media(max-width:1005px){
+    .nameVar{
+       margin-left: 10px;
+       display: flex;
+        
+    }
+} */
+
+
+@media(max-width:1005px){
+    .logoutVar{
+       margin-left: 1px;
+       display: flex;
+    }
+}
+
+
+
+
+
+/* main screen CSS*/
+
+
+
+a{
+    color: white
+}
+
+.main-row{
+    display: flex;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 75vh;
+    align-content: space-around;
+  
+    
+   
+}
+
+.main-btn{
+    display: flex;
+    align-self: flex-end;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1.5rem; 
+    height: 3.5rem;  
+    width: 12rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-style: oblique;
+    text-shadow: 1px 1px 1px rgb(82, 2, 2);
+    text-decoration: none;
+    
+}
+
+.main-btn:hover{
+    text-decoration: none;
+}
+
+.main-btn:focus{
+    text-decoration: none;
+}
+
+
+
+.colBotton{
+    height: 1rem;
+   
+}
+
+.text-information{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+   
+    
+}
+
+@media(max-width:1005px){
+    .text-information{
+     
+        margin-bottom: 3rem;
+    }
+}
+
+.text-botton{
+    display: flex;
+    height: 45%;
+    flex-direction: column;
+}
+
+
+.containnerBody{
+    height: 78vh; 
+}
+.rowBody{
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
+    height: 95% ;
+    background-size: cover; 
+    display: flex;
+    justify-content: space-between;
+}
+@media(max-width:1005px){
+    .rowBody{
+        display: flex;
+        align-items: center;
+    
+       
+       
+        
+    }
+}
+
+
+
+.colBody{
+    height: 60%;
+    
+}
+
+@media(max-width:1005px){
+    .colBody{
+        display: flex;
+        align-items: center;
+        margin-top:2.5rem;
+       
+        
+    }
+}
+
+
+
+
+.imagebody{
+    display: flex;
+    background-image: url("../assets/pictureback2.jpg");
+    width: auto;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;  
+
+}
+
+@media(max-width:1005px){
+    .imagebody{
+        display: flex;
+        height: 100vh;
+  
+    }
+} 
+
+
+/* //"../src/assets/pictureback2.jpg" */
+
+ .movilText{
+     display: flex;
+   
+}
+
+.elemets{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.weather{
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+    align-items: center;
+}
+
+.row-weather{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    margin: 10px; 
+   align-items: center;
+}
+
+.button-weather{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10rem;
+    height: 3rem;
+    font-size: 1.3rem;
+}
+
+
+
+@media(max-width:1005px){
+    .row-weather{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .button-weather{
+        width: 8rem;
+        height: 2.5rem;
+        font-size: 1rem;
+    }
+
+    
+.main-btn{
+    width: 10rem;
+    height: 2.5rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-style: oblique;
+    color: rgb(253, 177, 177);
+    text-shadow: 2px 2px 2px rgb(245, 53, 53);
+    border-color: white;
+    text-decoration: none;
+    
+    
+}
+}
+
+.logout-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10rem;
+    height: 3.3rem;
+    border: none;
+}
+
+
+
+
+@media(max-width:1005px){
+    .button-weather{
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        position: absolute;
+    }
+    .logout-button{
+        display: flex;
+        justify-content: center;
+        width: 5rem;
+        height: 2.8rem;
+    }
+
+}
+
+
+
+
+.rowFooter{
+    display: flex;
+    align-items: flex-start;
+}
+.contFooter{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+@media(max-width:1005px){
+    .rowFooter{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 10rem;
+        margin-right: 3rem;
+  
+    }
+}
+ 
