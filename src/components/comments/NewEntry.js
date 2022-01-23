@@ -32,22 +32,8 @@ export const NewEntry = () => {
 
     return (
         <>
-            <div className='row mt-5 row-entry'>
-        
-                <div className='col-9 opinion-col'>
-                    <h4> Leave us your opinion!</h4>
-                </div>
-                <div className='col-3 b-column'>
-                    <button 
-                     onClick={handleOpen}
-                     className = "button-plus"
-                     >
-                    
-                    <i className="fas fa-plus-circle plus-circle"></i>
-                    </button>
 
-
-                    <Modal
+                <Modal
                             isOpen={close}
                             onRequestClose={handleOpen}
                             style={customStyles}
@@ -58,7 +44,21 @@ export const NewEntry = () => {
 
                             <HandleNote handleWindow={handleOpen}/> 
 
-                    </Modal>
+                </Modal>
+            <div className='row mt-5 row-entry'>
+        
+                <div className='col-9 opinion-col'>
+                    <h4> Leave us your opinion!</h4>
+                </div>
+
+                <div className='col-3 b-column'>
+                    <button 
+                     onClick={handleOpen}
+                     className = "button-plus"
+                     >
+                    
+                    <i className="fas fa-plus-circle plus-circle"></i>
+                    </button>
 
                 </div>
             </div>
