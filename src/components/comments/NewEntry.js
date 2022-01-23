@@ -40,7 +40,7 @@ export const NewEntry = () => {
                             className= "modal"
                             overlayClassName= "modal-fondo"
                             closeTimeoutMS={ 200 }
-                        >
+                >
 
                             <HandleNote handleWindow={handleOpen}/> 
 
